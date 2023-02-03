@@ -1,0 +1,32 @@
+::selection {
+  background: indigo;
+  color: pink;
+}
+
+:root {
+  transition: 66ms ease;
+  background: #ddd;
+  color: #100;
+}
+
+:link {
+  transition: 33ms ease;
+  background: #eee;
+  color: blueviolet;
+}
+
+:visited {
+  background: #eee;
+  color: darkviolet;
+}
+
+:any-link:hover {
+  background: oldlace;
+  color: darkorchid;
+  text-decoration-color: darkslateblue;
+}
+
+mark {
+  background: #bae;
+  color: #101;
+}

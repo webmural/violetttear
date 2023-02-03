@@ -1,0 +1,39 @@
+html {
+  font-family: sans-serif;
+  font-size: calc(1em + 1vmin + 2vmax);
+  line-height: 1.5;
+}
+
+body {
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+[rel=home] {
+  text-decoration-style: dashed;
+}
+
+[rel=help] {
+  text-decoration-style: wavy;
+}
+
+:focus {
+  outline-width: thick;
+  outline-style: dotted;
+}
+
+:focus:active {
+  outline-width: medium;
+  outline-style: groove;
+}
+
+li {
+  margin-inline-start: 1em;
+  list-style: circle;
+}
+
+li:focus-within {
+  list-style: disc;
+}
